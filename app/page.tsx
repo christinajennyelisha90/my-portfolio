@@ -150,30 +150,23 @@ export default function Home() {
 <p className="mt-6 max-w-lg leading-8 text-gray-400">
 </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#projects"
-                className="rounded-lg bg-blue-500 px-6 py-3 font-semibold transition hover:bg-blue-600"
-              >
-                View My Projects
-              </a>
+           <div className="mt-8 flex flex-wrap gap-4">
+  <a
+    href="#projects"
+    className="rounded-lg bg-blue-500 px-6 py-3 font-semibold transition hover:bg-blue-600"
+  >
+    View My Projects
+  </a>
 
-              <a
-                href="#contact"
-                className="rounded-lg border border-white/30 px-6 py-3 font-semibold transition hover:bg-white hover:text-black"
-              >
-                Contact Me
-              </a>
-            
-            <a
-  href="/CV-Christina.pdf"
-  download="CV-Christina.pdf"
-  className="rounded-lg border border-emerald-400 px-6 py-3 font-semibold text-emerald-400 transition hover:bg-emerald-400 hover:text-black"
->
-  Download CV ↓
-</a>
-            </div>
-          </div>
+  <a
+    href="#contact"
+    className="rounded-lg border border-white/30 px-6 py-3 font-semibold transition hover:bg-white hover:text-black"
+  >
+    Contact Me
+  </a>
+
+  <GenerateCV />
+</div>
 
           <div className="flex justify-center">
   <div className="relative flex h-[320px] w-[320px] items-center justify-center">

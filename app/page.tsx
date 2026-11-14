@@ -165,9 +165,14 @@ export default function Home() {
     Contact Me
   </a>
 
-   <GenerateCV />
+  <a
+    href="/CV_Christina_Simanjuntak.pdf"
+    download="CV_Christina_Simanjuntak.pdf"
+    className="rounded-lg border border-emerald-400 px-6 py-3 font-semibold text-emerald-400 transition hover:bg-emerald-400 hover:text-black"
+  >
+    Download CV
+  </a>
 </div>
-
 </div> {/* Menutup kolom kiri */}
 
 <div className="flex justify-center">

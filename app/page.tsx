@@ -1,5 +1,6 @@
 import Typewriter from "./Typewriter";
 import Image from "next/image";
+import GenerateCV from "./components/GenerateCV";
 
 type Skill = {
   name: string;
@@ -163,6 +164,14 @@ export default function Home() {
               >
                 Contact Me
               </a>
+            
+            <a
+  href="/CV-Christina.pdf"
+  download="CV-Christina.pdf"
+  className="rounded-lg border border-emerald-400 px-6 py-3 font-semibold text-emerald-400 transition hover:bg-emerald-400 hover:text-black"
+>
+  Download CV ↓
+</a>
             </div>
           </div>
 

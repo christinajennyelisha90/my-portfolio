@@ -165,10 +165,12 @@ export default function Home() {
     Contact Me
   </a>
 
-  <GenerateCV />
+   <GenerateCV />
 </div>
 
-          <div className="flex justify-center">
+</div> {/* Menutup kolom kiri */}
+
+<div className="flex justify-center">
   <div className="relative flex h-[320px] w-[320px] items-center justify-center">
 
     {/* Neon Green Border */}

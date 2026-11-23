@@ -735,6 +735,36 @@ export default function Home() {
             View Credential ↗
           </a>
         </div>
+
+        {/* FREE5GC - LINUX FOUNDATION */}
+      <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-[#111118] p-5 transition hover:border-blue-400/50">
+        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-400/10 text-blue-400">
+          ✓
+        </div>
+
+        <div>
+          <h3 className="text-sm font-bold text-white">
+            Introduction to free5GC (LFS114)
+          </h3>
+          <p className="mt-1 text-xs text-blue-400">
+            The Linux Foundation
+          </p>
+          <p className="mt-2 text-[10px] text-gray-500">
+            November 2026
+          </p>
+          <p className="mt-1 text-[10px] text-gray-500">
+            ID: LF-cgj5r9thht
+          </p>
+          <a
+            href="/Certificate_free5GC_LFS114.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-block text-xs text-blue-400 hover:text-blue-300"
+          >
+            View Credential ↗
+          </a>
+        </div>
+      </div>
       </div>
 
     </div>

@@ -1,6 +1,7 @@
 import Typewriter from "./Typewriter";
 import Image from "next/image";
 import GenerateCV from "./components/GenerateCV";
+import ToolsCategories from "./ToolsCategories";
 
 type Skill = {
   name: string;
@@ -244,51 +245,6 @@ export default function Home() {
           building scalable systems with clean architecture
           and great UX.
         </p>
-      </div>
-
-      {/* RIGHT: CORE STACK */}
-      <div className="rounded-2xl border border-white/10 bg-[#101116] p-6">
-
-        <div className="mb-5 flex items-center gap-3">
-          <span className="font-mono text-sm font-bold text-emerald-400">
-            &lt;/&gt;
-          </span>
-          <h3 className="text-sm font-bold text-white">
-            Core Stack
-          </h3>
-        </div>
-
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {coreStack.map((tech) => (
-            <div
-              key={tech.name}
-              className="flex h-[74px] flex-col items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.02] transition duration-300 hover:-translate-y-1 hover:border-emerald-400/50 hover:bg-white/[0.05]"
-            >
-              {tech.whiteCircle ? (
-                <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white p-[3px]">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={tech.icon}
-                    alt={tech.name}
-                    className="h-full w-full"
-                  />
-                </div>
-              ) : (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={tech.icon}
-                  alt={tech.name}
-                  className="h-7 w-7"
-                />
-              )}
-
-              <span className="font-mono text-[10px] font-semibold tracking-wider text-gray-500">
-                {tech.name}
-              </span>
-            </div>
-          ))}
-        </div>
-
       </div>
 
     </div>
@@ -783,6 +739,7 @@ export default function Home() {
 
     </div>
   </div>
+
 </section>
 
 {/* CONTACT SECTION */}

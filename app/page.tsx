@@ -735,6 +735,8 @@ export default function Home() {
             View Credential ↗
           </a>
         </div>
+         </div>
+        
 
         {/* FREE5GC - LINUX FOUNDATION */}
       <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-[#111118] p-5 transition hover:border-blue-400/50">
@@ -765,7 +767,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      </div>
+      
 
     </div>
   </div>
